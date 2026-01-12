@@ -4,121 +4,145 @@
 %h1-black {
     font-family: "Instrument Serif", serif;
     @include m.font(72px, 400, v.$color_green_800);
+    line-height: 100%;
 }
 
 %h1-white {
     font-family: "Instrument Serif", serif;
     @include m.font(72px, 400, v.$color_green_100);
+    line-height: 100%;
 }
 
 %h2-black {
     font-family: "Instrument Serif", serif;
     @include m.font(56px, 400, v.$color_green_800);
+    line-height: 100%;
 }
 
 %h2-white {
     font-family: "Instrument Serif", serif;
     @include m.font(56px, 400, v.$color_green_100);
+    line-height: 100%;
 }
 
 %h3-black {
     font-family: "Instrument Serif", serif;
     @include m.font(48px, 400, v.$color_green_800);
+    line-height: 100%;
 }
 
 %h3-white {
     font-family: "Instrument Serif", serif;
     @include m.font(48px, 400, v.$color_green_100);
+    line-height: 100%;
 }
 
 %h4-black {
     font-family: "Instrument Serif", serif;
     @include m.font(40px, 400, v.$color_green_800);
+    line-height: 100%;
 }
 
 %h4-white {
     font-family: "Instrument Serif", serif;
     @include m.font(40px, 400, v.$color_green_100);
+    line-height: 100%;
 }
 
 %h5-black {
     font-family: "Instrument Serif", serif;
     @include m.font(32px, 400, v.$color_green_800);
+    line-height: 100%;
 }
 
 %h5-white {
     font-family: "Instrument Serif", serif;
     @include m.font(32px, 400, v.$color_green_100);
+    line-height: 100%;
 }
 
 %h6-black {
     font-family: "Instrument Serif", serif;
     @include m.font(24px, 400, v.$color_green_800);
+    line-height: 100%;
 }
 
 %h6-white {
     font-family: "Instrument Serif", serif;
     @include m.font(24px, 400, v.$color_green_100);
+    line-height: 100%;
 }
 
 %body-l-500-black {
     font-family: "Inter Tight", sans-serif;
     @include m.font(20px, 500, v.$color_green_800);
+    line-height: 130%;
 }
 
 %body-l-500-white {
     font-family: "Inter Tight", sans-serif;
     @include m.font(20px, 500, v.$color_green_100);
+    line-height: 130%;
 }
 
 %body-m-500-black {
     font-family: "Inter Tight", sans-serif;
     @include m.font(16px, 500, v.$color_green_800);
+    line-height: 130%;
 }
 
 %body-m-500-white {
     font-family: "Inter Tight", sans-serif;
     @include m.font(16px, 500, v.$color_green_100);
+    line-height: 130%;
 }
 
 %body-s-500-black {
     font-family: "Inter Tight", sans-serif;
     @include m.font(12px, 500, v.$color_green_800);
+    line-height: 130%;
 }
 
 %body-s-500-white {
     font-family: "Inter Tight", sans-serif;
     @include m.font(12px, 500, v.$color_green_100);
+    line-height: 130%;
 }
 
 %body-l-700-black {
     font-family: "Inter Tight", sans-serif;
     @include m.font(20px, 700, v.$color_green_800);
+    line-height: 130%;
 }
 
 %body-l-700-white {
     font-family: "Inter Tight", sans-serif;
     @include m.font(20px, 700, v.$color_green_100);
+    line-height: 130%;
 }
 
 %body-m-700-black {
     font-family: "Inter Tight", sans-serif;
     @include m.font(16px, 700, v.$color_green_800);
+    line-height: 130%;
 }
 
 %body-m-700-white {
     font-family: "Inter Tight", sans-serif;
     @include m.font(16px, 700, v.$color_green_100);
+    line-height: 130%;
 }
 
 %body-s-700-black {
     font-family: "Inter Tight", sans-serif;
     @include m.font(12px, 700, v.$color_green_800);
+    line-height: 130%;
 }
 
 %body-s-700-white {
     font-family: "Inter Tight", sans-serif;
     @include m.font(12px, 700, v.$color_green_100);
+    line-height: 130%;
 }
 
 %eyebrow-l-black {
