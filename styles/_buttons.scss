@@ -1,0 +1,63 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'typography';
+
+%primary-button {
+    @extend %body-m-500-white;
+    padding: 16px 32px;
+    background-color: v.$color_green_800;
+    border: none;
+    border-radius: 99px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: v.$color_green_700;
+    }
+
+    &:focus {
+        outline: none;
+        background-color: v.$color_green_600;
+    }
+
+    &:focus-visible {
+        background-color: v.$color_green_600;
+        outline: 2px solid v.$color_green_400;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        background-color: v.$color_green_500;
+        color: v.$color_green_300;
+    }
+}
+
+%secondary-button {
+    @extend %body-m-500-black;
+    padding: 16px 32px;
+    background-color: v.$color_green_200;
+    border: none;
+    border-radius: 99px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: v.$color_green_600;
+        color: v.$color_green_100;
+    }
+
+    &:focus {
+        outline: none;
+        background-color: v.$color_green_700;
+        color: v.$color_green_100;
+    }
+
+    &:focus-visible {
+        outline: 2px solid v.$color_gray_300;
+        background-color: v.$color_green_700;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        background-color: v.$color_green_200;
+        color: v.$color_green_500;
+    }
+}
