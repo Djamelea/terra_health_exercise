@@ -1,0 +1,164 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+%h1-black {
+    font-family: "Instrument Serif", serif;
+    @include m.font(72px, 400, v.$color_green_800);
+}
+
+%h1-white {
+    font-family: "Instrument Serif", serif;
+    @include m.font(72px, 400, v.$color_green_100);
+}
+
+%h2-black {
+    font-family: "Instrument Serif", serif;
+    @include m.font(56px, 400, v.$color_green_800);
+}
+
+%h2-white {
+    font-family: "Instrument Serif", serif;
+    @include m.font(56px, 400, v.$color_green_100);
+}
+
+%h3-black {
+    font-family: "Instrument Serif", serif;
+    @include m.font(48px, 400, v.$color_green_800);
+}
+
+%h3-white {
+    font-family: "Instrument Serif", serif;
+    @include m.font(48px, 400, v.$color_green_100);
+}
+
+%h4-black {
+    font-family: "Instrument Serif", serif;
+    @include m.font(40px, 400, v.$color_green_800);
+}
+
+%h4-white {
+    font-family: "Instrument Serif", serif;
+    @include m.font(40px, 400, v.$color_green_100);
+}
+
+%h5-black {
+    font-family: "Instrument Serif", serif;
+    @include m.font(32px, 400, v.$color_green_800);
+}
+
+%h5-white {
+    font-family: "Instrument Serif", serif;
+    @include m.font(32px, 400, v.$color_green_100);
+}
+
+%h6-black {
+    font-family: "Instrument Serif", serif;
+    @include m.font(24px, 400, v.$color_green_800);
+}
+
+%h6-white {
+    font-family: "Instrument Serif", serif;
+    @include m.font(24px, 400, v.$color_green_100);
+}
+
+%body-l-500-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(20px, 500, v.$color_green_800);
+}
+
+%body-l-500-white {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(20px, 500, v.$color_green_100);
+}
+
+%body-m-500-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(16px, 500, v.$color_green_800);
+}
+
+%body-m-500-white {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(16px, 500, v.$color_green_100);
+}
+
+%body-s-500-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(12px, 500, v.$color_green_800);
+}
+
+%body-s-500-white {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(12px, 500, v.$color_green_100);
+}
+
+%body-l-700-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(20px, 700, v.$color_green_800);
+}
+
+%body-l-700-white {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(20px, 700, v.$color_green_100);
+}
+
+%body-m-700-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(16px, 700, v.$color_green_800);
+}
+
+%body-m-700-white {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(16px, 700, v.$color_green_100);
+}
+
+%body-s-700-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(12px, 700, v.$color_green_800);
+}
+
+%body-s-700-white {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(12px, 700, v.$color_green_100);
+}
+
+%eyebrow-l-black {
+    font-family: "Fragment Mono", monospace;
+    @include m.font(20px, 400, v.$color_green_800);
+    text-transform: uppercase;
+    letter-spacing: -4%;
+}
+
+%eyebrow-l-white {
+    font-family: "Fragment Mono", monospace;
+    @include m.font(20px, 400, v.$color_green_100);
+    text-transform: uppercase;
+    letter-spacing: -4%;
+}
+
+%eyebrow-m-black {
+    font-family: "Fragment Mono", monospace;
+    @include m.font(16px, 400, v.$color_green_800);
+    text-transform: uppercase;
+    letter-spacing: -4%;
+}
+
+%eyebrow-m-white {
+    font-family: "Fragment Mono", monospace;
+    @include m.font(16px, 400, v.$color_green_100);
+    text-transform: uppercase;
+    letter-spacing: -4%;
+}
+
+%eyebrow-s-black {
+    font-family: "Fragment Mono", monospace;
+    @include m.font(12px, 400, v.$color_green_800);
+    text-transform: uppercase;
+    letter-spacing: -4%;
+}
+
+%eyebrow-s-white {
+    font-family: "Fragment Mono", monospace;
+    @include m.font(12px, 400, v.$color_green_100);
+    text-transform: uppercase;
+    letter-spacing: -4%;
+}
