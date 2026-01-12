@@ -1,0 +1,24 @@
+{
+  "name": "terra_health",
+  "version": "1.0.0",
+  "description": "Terra Health Exercise",
+  "homepage": "https://github.com/Djamelea/terra_health_exercise#readme",
+  "bugs": {
+    "url": "https://github.com/Djamelea/terra_health_exercise/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djamelea/terra_health_exercise.git"
+  },
+  "license": "ISC",
+  "author": "Djamile Abdullaeva",
+  "type": "commonjs",
+  "source": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3",
+    "sass": "^1.97.2"
+  }
+}
