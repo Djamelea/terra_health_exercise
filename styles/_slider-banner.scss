@@ -1,0 +1,34 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'typography';
+
+.slider-banner {
+    padding: 56px 0;
+    @include m.d-flex(center, center, nowrap, row, 40px, 0);
+    background-color: v.$color_green_800;
+
+    &__content {
+        @include m.d-flex(start, center, nowrap, row, 8px, 0);
+
+        &-icon {
+            &-check {
+                width: 24px;
+                height: 24px;
+                fill: v.$color_green_100;
+            }
+        }
+
+        &-text {
+            @extend %eyebrow-m-white;
+            white-space: nowrap;
+        }
+    }
+
+    @media (max-width: v.$media_xl) {
+        padding: 48px 0;
+    }
+
+    @media (max-width: v.$media_md) {
+        padding: 40px 0;
+    }
+}
