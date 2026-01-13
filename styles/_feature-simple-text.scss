@@ -1,0 +1,84 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'typography';
+@use 'buttons';
+
+.feature-simple-text__section {
+    padding: 56px 0;
+
+    .feature-simple-text {
+        width: 100%;
+        @include m.d-flex(start, center, nowrap, row, 24px, 0);
+
+        &__img {
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .content {
+            width: 50%;
+            padding: 0 0 0 24px;
+            @include m.d-flex(start, start, nowrap, column, 0, 24px);
+
+            &__text {
+                @include m.d-flex(start, start, nowrap, column, 0, 8px);
+
+                &-eyebrow {
+                    margin: 0 0 8px 0;
+                    @extend %eyebrow-m-light-black;
+                }
+
+                &-title {
+                    @extend %h2-black;
+                }
+
+                &-desc {
+                    @extend %body-m-500-black;
+                }
+            }
+
+            .button {
+                @include m.d-flex(start, start, nowrap, row, 16px, 0);
+
+                &__primary {
+                    @extend %primary-button;
+                }
+
+                &__secondary {
+                    @extend %secondary-button;
+                }
+            }
+        }
+
+        @media (max-width: v.$media_lg) {
+            .content {
+                padding: 0;
+            }
+        }
+
+        @media (max-width: v.$media_sm) {
+            @include m.d-flex(start, start, nowrap, column, 0, 24px);
+
+            &__img {
+                width: 100%;
+            }
+
+            .content {
+                width: 100%;
+
+                .button {
+                    @include m.d-flex(start, start, wrap, row, 16px, 16px);
+                }
+            }
+        }
+    }
+
+    @media (max-width: v.$media_lg) {
+        padding: 48px 0;
+    }
+
+    @media (max-width: v.$media_sm) {
+        padding: 40px 0;
+    }
+}

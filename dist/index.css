@@ -67,6 +67,15 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 100%;
 }
 
+.feature-simple-text__section .feature-simple-text .content__text-title {
+  font-family: "Instrument Serif", serif;
+  font-size: 56px;
+  font-weight: 400;
+  font-style: normal;
+  color: #162E0F;
+  line-height: 100%;
+}
+
 .form-cta__section .form-cta__title, .feature-numbers__section .feature-numbers__content-wrapper .header__title {
   font-family: "Instrument Serif", serif;
   font-size: 40px;
@@ -76,7 +85,7 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 100%;
 }
 
-.form-cta__section .form-cta__form-input, .feature-numbers__section .feature-numbers__content-wrapper .numbers__wrapper-text, .hero__section .hero-content__text .rating__text, .hero__section .hero-content__text-main-text, .hero__section .hero .button__secondary {
+.feature-simple-text__section .feature-simple-text .content__text-desc, .form-cta__section .form-cta__form-input, .feature-numbers__section .feature-numbers__content-wrapper .numbers__wrapper-text, .hero__section .hero-content__text .rating__text, .hero__section .hero-content__text-main-text, .feature-simple-text__section .feature-simple-text .content .button__secondary, .hero__section .hero .button__secondary {
   font-family: "Inter Tight", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -94,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 130%;
 }
 
-.form-cta__section .form-cta__form-btn, .feature-numbers__section .feature-numbers__content-wrapper-btn, .hero__section .hero .button__primary {
+.feature-simple-text__section .feature-simple-text .content .button__primary, .form-cta__section .form-cta__form-btn, .feature-numbers__section .feature-numbers__content-wrapper-btn, .hero__section .hero .button__primary {
   font-family: "Inter Tight", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -112,12 +121,12 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 130%;
 }
 
-.hero__section .hero-content__text-eyebrow {
+.feature-simple-text__section .feature-simple-text .content__text-eyebrow, .hero__section .hero-content__text-eyebrow {
   font-family: "Fragment Mono", monospace;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
-  color: #162E0F;
+  color: #45663C;
   text-transform: uppercase;
   letter-spacing: -4%;
 }
@@ -132,54 +141,54 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: -4%;
 }
 
-.form-cta__section .form-cta__form-btn, .feature-numbers__section .feature-numbers__content-wrapper-btn, .hero__section .hero .button__primary {
+.feature-simple-text__section .feature-simple-text .content .button__primary, .form-cta__section .form-cta__form-btn, .feature-numbers__section .feature-numbers__content-wrapper-btn, .hero__section .hero .button__primary {
   padding: 16px 32px;
   background-color: #162E0F;
   text-decoration: none;
   border: none;
   border-radius: 99px;
 }
-.form-cta__section .form-cta__form-btn:hover, .feature-numbers__section .feature-numbers__content-wrapper-btn:hover, .hero__section .hero .button__primary:hover {
+.feature-simple-text__section .feature-simple-text .content .button__primary:hover, .form-cta__section .form-cta__form-btn:hover, .feature-numbers__section .feature-numbers__content-wrapper-btn:hover, .hero__section .hero .button__primary:hover {
   cursor: pointer;
   background-color: #45663C;
 }
-.form-cta__section .form-cta__form-btn:focus, .feature-numbers__section .feature-numbers__content-wrapper-btn:focus, .hero__section .hero .button__primary:focus {
+.feature-simple-text__section .feature-simple-text .content .button__primary:focus, .form-cta__section .form-cta__form-btn:focus, .feature-numbers__section .feature-numbers__content-wrapper-btn:focus, .hero__section .hero .button__primary:focus {
   outline: none;
   background-color: #45663C;
 }
-.form-cta__section .form-cta__form-btn:focus-visible, .feature-numbers__section .feature-numbers__content-wrapper-btn:focus-visible, .hero__section .hero .button__primary:focus-visible {
+.feature-simple-text__section .feature-simple-text .content .button__primary:focus-visible, .form-cta__section .form-cta__form-btn:focus-visible, .feature-numbers__section .feature-numbers__content-wrapper-btn:focus-visible, .hero__section .hero .button__primary:focus-visible {
   background-color: #45663C;
   outline: 2px solid #BBC3B8;
 }
-.form-cta__section .form-cta__form-btn:disabled, .feature-numbers__section .feature-numbers__content-wrapper-btn:disabled, .hero__section .hero .button__primary:disabled {
+.feature-simple-text__section .feature-simple-text .content .button__primary:disabled, .form-cta__section .form-cta__form-btn:disabled, .feature-numbers__section .feature-numbers__content-wrapper-btn:disabled, .hero__section .hero .button__primary:disabled {
   cursor: not-allowed;
   background-color: #A5B0A2;
   color: #D2D8D0;
 }
 
-.hero__section .hero .button__secondary {
+.feature-simple-text__section .feature-simple-text .content .button__secondary, .hero__section .hero .button__secondary {
   padding: 16px 32px;
   background-color: #E9F0CA;
   text-decoration: none;
   border: none;
   border-radius: 99px;
 }
-.hero__section .hero .button__secondary:hover {
+.feature-simple-text__section .feature-simple-text .content .button__secondary:hover, .hero__section .hero .button__secondary:hover {
   cursor: pointer;
   background-color: #45663C;
   color: #F6F7EF;
 }
-.hero__section .hero .button__secondary:focus {
+.feature-simple-text__section .feature-simple-text .content .button__secondary:focus, .hero__section .hero .button__secondary:focus {
   outline: none;
   background-color: #1C3A13;
   color: #F6F7EF;
 }
-.hero__section .hero .button__secondary:focus-visible {
+.feature-simple-text__section .feature-simple-text .content .button__secondary:focus-visible, .hero__section .hero .button__secondary:focus-visible {
   outline: 2px solid #AFAFAF;
   background-color: #1C3A13;
   color: #F6F7EF;
 }
-.hero__section .hero .button__secondary:disabled {
+.feature-simple-text__section .feature-simple-text .content .button__secondary:disabled, .hero__section .hero .button__secondary:disabled {
   cursor: not-allowed;
   background-color: #E9F0CA;
   color: #A5B0A2;
@@ -568,6 +577,98 @@ h1, h2, h3, h4, h5, h6, p {
 }
 @media (max-width: 768px) {
   .form-cta__section {
+    padding: 40px 0;
+  }
+}
+
+.feature-simple-text__section {
+  padding: 56px 0;
+}
+.feature-simple-text__section .feature-simple-text {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  column-gap: 24px;
+  row-gap: 0;
+}
+.feature-simple-text__section .feature-simple-text__img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+.feature-simple-text__section .feature-simple-text .content {
+  width: 50%;
+  padding: 0 0 0 24px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  column-gap: 0;
+  row-gap: 24px;
+}
+.feature-simple-text__section .feature-simple-text .content__text {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  column-gap: 0;
+  row-gap: 8px;
+}
+.feature-simple-text__section .feature-simple-text .content__text-eyebrow {
+  margin: 0 0 8px 0;
+}
+.feature-simple-text__section .feature-simple-text .content .button {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  column-gap: 16px;
+  row-gap: 0;
+}
+@media (max-width: 1024px) {
+  .feature-simple-text__section .feature-simple-text .content {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .feature-simple-text__section .feature-simple-text {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 24px;
+  }
+  .feature-simple-text__section .feature-simple-text__img {
+    width: 100%;
+  }
+  .feature-simple-text__section .feature-simple-text .content {
+    width: 100%;
+  }
+  .feature-simple-text__section .feature-simple-text .content .button {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .feature-simple-text__section {
+    padding: 48px 0;
+  }
+}
+@media (max-width: 768px) {
+  .feature-simple-text__section {
     padding: 40px 0;
   }
 }
