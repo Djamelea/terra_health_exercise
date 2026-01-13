@@ -79,6 +79,12 @@
     line-height: 130%;
 }
 
+%body-l-500-light-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(20px, 500, v.$color_green_600);
+    line-height: 130%;
+}
+
 %body-l-500-white {
     font-family: "Inter Tight", sans-serif;
     @include m.font(20px, 500, v.$color_green_100);
@@ -88,6 +94,12 @@
 %body-m-500-black {
     font-family: "Inter Tight", sans-serif;
     @include m.font(16px, 500, v.$color_green_800);
+    line-height: 130%;
+}
+
+%body-m-500-light-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(16px, 500, v.$color_green_600);
     line-height: 130%;
 }
 
@@ -103,6 +115,12 @@
     line-height: 130%;
 }
 
+%body-s-500-light-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(12px, 500, v.$color_green_600);
+    line-height: 130%;
+}
+
 %body-s-500-white {
     font-family: "Inter Tight", sans-serif;
     @include m.font(12px, 500, v.$color_green_100);
@@ -112,6 +130,12 @@
 %body-l-700-black {
     font-family: "Inter Tight", sans-serif;
     @include m.font(20px, 700, v.$color_green_800);
+    line-height: 130%;
+}
+
+%body-l-700-light-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(20px, 700, v.$color_green_600);
     line-height: 130%;
 }
 
@@ -127,6 +151,12 @@
     line-height: 130%;
 }
 
+%body-m-700-light-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(16px, 700, v.$color_green_600);
+    line-height: 130%;
+}
+
 %body-m-700-white {
     font-family: "Inter Tight", sans-serif;
     @include m.font(16px, 700, v.$color_green_100);
@@ -136,6 +166,12 @@
 %body-s-700-black {
     font-family: "Inter Tight", sans-serif;
     @include m.font(12px, 700, v.$color_green_800);
+    line-height: 130%;
+}
+
+%body-s-700-light-black {
+    font-family: "Inter Tight", sans-serif;
+    @include m.font(12px, 700, v.$color_green_600);
     line-height: 130%;
 }
 

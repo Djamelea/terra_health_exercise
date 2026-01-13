@@ -1,0 +1,112 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'typography';
+@use 'buttons';
+
+.feature-numbers__section {
+    padding: 56px 0;
+
+    .feature-numbers {
+        width: 100%;
+        @include m.d-flex(start, center, nowrap, row, 24px, 0);
+
+        &__img {
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &__content {
+            width: 50%;
+            @include m.d-flex(center, center, nowrap, column, 0, 0);
+
+            &-wrapper {
+                max-width: 586px;
+                @include m.d-flex(start, start, nowrap, column, 0, 40px);
+
+                .header {
+                    &__title {
+                        @extend %h4-black;
+                        margin: 0 0 8px 0;
+                    }
+
+                    &__text {
+                        @extend %body-m-500-light-black;
+                    }
+                }
+
+                .numbers {
+                    @include m.d-flex(start, start, nowrap, column, 0, 32px);
+
+                    &__wrapper {
+                        &-title {
+                            @extend %h1-black;
+                            margin: 0 0 8px 0;
+                        }
+
+                        &-text {
+                            @extend %body-m-500-black;
+                        }
+                    }
+                }
+
+                &-btn {
+                    @extend %primary-button;
+                }
+            }
+        }
+
+        @media (max-width: v.$media_xl) {
+            @include m.d-flex(start, stretch, nowrap, row, 24px, 0);
+
+            &__img {
+                height: auto;
+            }
+        }
+
+        @media (max-width: v.$media_lg) {
+            &__content {
+                padding: 0 0 0 16px;
+
+                &-wrapper {
+                    row-gap: 32px;
+                }
+
+                .numbers {
+                    row-gap: 24px;
+                }
+            }
+        }
+
+        @media (max-width: v.$media_md) {
+            &__content {
+                padding: 0;
+            }
+        }
+
+        @media (max-width: v.$media_sm) {
+            @include m.d-flex(start, center, nowrap, column, 0, 24px);
+
+            &__img {
+                width: 100%;
+            }
+
+            &__content {
+                width: 100%;
+                @include m.d-flex(start, start, nowrap, column, 0, 0);
+
+                &-wrapper {
+                    max-width: none;
+                }
+            }
+        }
+    }
+
+    @media (max-width: v.$media_lg) {
+        padding: 48px 0;
+    }
+
+    @media (max-width: v.$media_sm) {
+        padding: 40px 0;
+    }
+}
