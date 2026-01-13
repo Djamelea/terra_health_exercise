@@ -6,12 +6,13 @@
     @extend %body-m-500-white;
     padding: 16px 32px;
     background-color: v.$color_green_800;
+    text-decoration: none;
     border: none;
     border-radius: 99px;
 
     &:hover {
         cursor: pointer;
-        background-color: v.$color_green_700;
+        background-color: v.$color_green_600;
     }
 
     &:focus {
@@ -35,6 +36,7 @@
     @extend %body-m-500-black;
     padding: 16px 32px;
     background-color: v.$color_green_200;
+    text-decoration: none;
     border: none;
     border-radius: 99px;
 
@@ -53,6 +55,7 @@
     &:focus-visible {
         outline: 2px solid v.$color_gray_300;
         background-color: v.$color_green_700;
+        color: v.$color_green_100;
     }
 
     &:disabled {
