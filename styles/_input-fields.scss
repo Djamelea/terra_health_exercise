@@ -1,0 +1,39 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'typography';
+
+%input-field {
+    width: 100%;
+    padding: 16px 24px;
+    border-radius: 99px;
+    border: 1px solid v.$color_green_400;
+    background-color: v.$color_gray_100;
+    @extend %body-m-500-black;
+
+    &::placeholder {
+        @extend %body-m-500-light-black;
+    }
+
+    &:hover {
+        border: 1px solid v.$color_green_800;
+    }
+
+    &:focus {
+        outline: none;
+        border: 1px solid v.$color_green_800;
+    }
+
+    &:focus-visible {
+        outline: none;
+        border: 1px solid v.$color_green_800;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        border: 1px solid v.$color_green_400;
+
+        &::placeholder {
+            color: v.$color_green_500;
+        }
+    }
+}
