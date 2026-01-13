@@ -7,4 +7,13 @@
         <path d="M6.575 19.9615L8.00775 13.7922L3.22125 9.64424L9.5365 9.09624L12 3.27899L14.4635 9.09624L20.7788 9.64424L15.9923 13.7922L17.425 19.9615L12 16.6885L6.575 19.9615Z"/>
         </g>
     </symbol>
+
+    <symbol width="24" height="24" viewBox="0 0 24 24" id="check-icon">
+        <mask id="mask0_40002147_9442" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+        <rect width="24" height="24"/>
+        </mask>
+        <g mask="url(#mask0_40002147_9442)">
+        <path d="M9.54995 17.6537L4.21545 12.3192L5.28445 11.25L9.54995 15.5155L18.7155 6.34998L19.7845 7.41923L9.54995 17.6537Z"/>
+        </g>
+    </symbol>
 </svg>
