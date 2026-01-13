@@ -188,6 +188,13 @@
     letter-spacing: -4%;
 }
 
+%eyebrow-l-light-black {
+    font-family: "Fragment Mono", monospace;
+    @include m.font(20px, 400, v.$color_green_600);
+    text-transform: uppercase;
+    letter-spacing: -4%;
+}
+
 %eyebrow-l-white {
     font-family: "Fragment Mono", monospace;
     @include m.font(20px, 400, v.$color_green_100);
@@ -202,6 +209,13 @@
     letter-spacing: -4%;
 }
 
+%eyebrow-m-light-black {
+    font-family: "Fragment Mono", monospace;
+    @include m.font(16px, 400, v.$color_green_600);
+    text-transform: uppercase;
+    letter-spacing: -4%;
+}
+
 %eyebrow-m-white {
     font-family: "Fragment Mono", monospace;
     @include m.font(16px, 400, v.$color_green_100);
@@ -212,6 +226,13 @@
 %eyebrow-s-black {
     font-family: "Fragment Mono", monospace;
     @include m.font(12px, 400, v.$color_green_800);
+    text-transform: uppercase;
+    letter-spacing: -4%;
+}
+
+%eyebrow-s-light-black {
+    font-family: "Fragment Mono", monospace;
+    @include m.font(12px, 400, v.$color_green_600);
     text-transform: uppercase;
     letter-spacing: -4%;
 }
