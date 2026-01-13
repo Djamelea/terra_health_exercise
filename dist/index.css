@@ -92,12 +92,13 @@ h1, h2, h3, h4, h5, h6, p {
 .hero__section .hero .button__primary {
   padding: 16px 32px;
   background-color: #162E0F;
+  text-decoration: none;
   border: none;
   border-radius: 99px;
 }
 .hero__section .hero .button__primary:hover {
   cursor: pointer;
-  background-color: #1C3A13;
+  background-color: #45663C;
 }
 .hero__section .hero .button__primary:focus {
   outline: none;
@@ -116,6 +117,7 @@ h1, h2, h3, h4, h5, h6, p {
 .hero__section .hero .button__secondary {
   padding: 16px 32px;
   background-color: #E9F0CA;
+  text-decoration: none;
   border: none;
   border-radius: 99px;
 }
@@ -132,6 +134,7 @@ h1, h2, h3, h4, h5, h6, p {
 .hero__section .hero .button__secondary:focus-visible {
   outline: 2px solid #AFAFAF;
   background-color: #1C3A13;
+  color: #F6F7EF;
 }
 .hero__section .hero .button__secondary:disabled {
   cursor: not-allowed;
