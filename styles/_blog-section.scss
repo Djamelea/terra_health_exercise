@@ -6,175 +6,180 @@
 .blog__section {
     padding: 56px 0;
 
-    .blog {
-        @include m.d-flex(start, start, nowrap, column, 0, 32px);
+    .max-width {
+        max-width: 2560px;
+        margin: 0 auto;
 
-        .header {
-            width: 100%;
-            padding: 0 56px 0 0;
-            @include m.d-flex(start, start, nowrap, row, 24px, 0);
-
-            &__text {
+        .blog {
+            @include m.d-flex(start, start, nowrap, column, 0, 32px);
+    
+            .header {
                 width: 100%;
-
-                &-title {
-                    margin: 0 0 8px 0;
-                    @extend %h2-black;
+                padding: 0 56px 0 0;
+                @include m.d-flex(start, start, nowrap, row, 24px, 0);
+    
+                &__text {
+                    width: 100%;
+    
+                    &-title {
+                        margin: 0 0 8px 0;
+                        @extend %h2-black;
+                    }
+    
+                    &-desc {
+                        @extend %body-m-500-black;
+                    }
                 }
-
-                &-desc {
-                    @extend %body-m-500-black;
+    
+                &__btn {
+                    @extend %primary-button;
+                }
+    
+                @media (max-width: v.$media_lg) {
+                    padding: 0 24px 0 0;
+                }
+    
+                @media (max-width: v.$media_sm) {
+                    @include m.d-flex(start, start, nowrap, column, 0, 24px);
                 }
             }
-
-            &__btn {
-                @extend %primary-button;
+    
+            .blog__articles {
+                @include m.d-flex(start, start, nowrap, row, 24px, 0);
+    
+                .article-wrapper {
+                    width: 587px;
+                    @include m.d-flex(start, start, nowrap, column, 0, 24px);
+    
+                    &__img {
+                        width: 100%;
+                        aspect-ratio: 3/2;
+                        object-fit: cover;
+                    }
+    
+                    .content {
+                        @include m.d-flex(start, start, nowrap, column, 0, 8px);
+    
+                        &__info {
+                            margin: 0 0 8px 0;
+                            @include m.d-flex(start, center, wrap, row, 16px, 0);
+    
+                            &-eyebrow {
+                                @extend %eyebrow-m-light-black;
+                            }
+    
+                            &-time {
+                                @include m.d-flex(start, start, nowrap, row, 8px, 0);
+    
+                                &-icon {
+                                    width: 18px;
+                                    height: 18px;
+                                    fill: v.$color_green_600;
+                                }
+    
+                                &-text {
+                                    @extend %body-m-500-light-black;
+                                }
+                            }
+                        }
+    
+                        &__title {
+                            @extend %h4-black;
+                        }
+    
+                        &__text {
+                            @extend %body-m-500-light-black;
+                        }
+    
+                        &__btn {
+                            margin: 8px 0 0 0;
+                            @extend %secondary-button;
+                        }
+                    }
+    
+                    @media (max-width: v.$media_xl) {
+                        width: 427px;
+                    }
+    
+                    @media (max-width: v.$media_lg) {
+                        width: 315px;
+                    }
+    
+                    @media (max-width: v.$media_xs) {
+                        width: 320px;
+                    }
+                }
+    
+                @media (max-width: v.$media_lg) {
+                    @include m.d-flex(start, start, nowrap, row, 16px, 0);
+                }
             }
-
-            @media (max-width: v.$media_lg) {
-                padding: 0 24px 0 0;
+    
+            &__footer {
+                width: 100%;
+                padding: 0 56px 0 0;
+                @include m.d-flex(space-between, center, nowrap, row, 24px, 0);
+    
+                &-slider {
+                    width: 224px;
+                    height: 2px;
+                    background-color: v.$color_green_400;
+    
+                    &-top {
+                        width: 80px;
+                        height: 2px;
+                        background-color: v.$color_green_800;
+                    }
+    
+                    @media (max-width: v.$media_sm) {
+                        width: 163px;
+                    }
+                }
+    
+                .button {
+                    @include m.d-flex(start, start, nowrap, row, 8px, 0);
+    
+                    &__left {
+                        @extend %secondary-button__icon-only;
+    
+                        &-icon {
+                            display: block;
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+    
+                    &__right {
+                        @extend %secondary-button__icon-only;
+    
+                        &-icon {
+                            display: block;
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+                }
+    
+                @media (max-width: v.$media_lg) {
+                    padding: 0 24px 0 0;
+                }
             }
-
+    
+            @media (max-width: v.$media_md) {
+                padding: 0 0 0 24px;
+            }
+    
             @media (max-width: v.$media_sm) {
                 @include m.d-flex(start, start, nowrap, column, 0, 24px);
             }
         }
-
-        .blog__articles {
-            @include m.d-flex(start, start, nowrap, row, 24px, 0);
-
-            .article-wrapper {
-                width: 587px;
-                @include m.d-flex(start, start, nowrap, column, 0, 24px);
-
-                &__img {
-                    width: 100%;
-                    aspect-ratio: 3/2;
-                    object-fit: cover;
-                }
-
-                .content {
-                    @include m.d-flex(start, start, nowrap, column, 0, 8px);
-
-                    &__info {
-                        margin: 0 0 8px 0;
-                        @include m.d-flex(start, center, wrap, row, 16px, 0);
-
-                        &-eyebrow {
-                            @extend %eyebrow-m-light-black;
-                        }
-
-                        &-time {
-                            @include m.d-flex(start, start, nowrap, row, 8px, 0);
-
-                            &-icon {
-                                width: 18px;
-                                height: 18px;
-                                fill: v.$color_green_600;
-                            }
-
-                            &-text {
-                                @extend %body-m-500-light-black;
-                            }
-                        }
-                    }
-
-                    &__title {
-                        @extend %h4-black;
-                    }
-
-                    &__text {
-                        @extend %body-m-500-light-black;
-                    }
-
-                    &__btn {
-                        margin: 8px 0 0 0;
-                        @extend %secondary-button;
-                    }
-                }
-
-                @media (max-width: v.$media_xl) {
-                    width: 427px;
-                }
-
-                @media (max-width: v.$media_lg) {
-                    width: 315px;
-                }
-
-                @media (max-width: v.$media_xs) {
-                    width: 320px;
-                }
-            }
-
-            @media (max-width: v.$media_lg) {
-                @include m.d-flex(start, start, nowrap, row, 16px, 0);
-            }
+    
+        @media (max-width: v.$media_lg) {
+            padding: 48px 0;
         }
-
-        &__footer {
-            width: 100%;
-            padding: 0 56px 0 0;
-            @include m.d-flex(space-between, center, nowrap, row, 24px, 0);
-
-            &-slider {
-                width: 224px;
-                height: 2px;
-                background-color: v.$color_green_400;
-
-                &-top {
-                    width: 80px;
-                    height: 2px;
-                    background-color: v.$color_green_800;
-                }
-
-                @media (max-width: v.$media_sm) {
-                    width: 163px;
-                }
-            }
-
-            .button {
-                @include m.d-flex(start, start, nowrap, row, 8px, 0);
-
-                &__left {
-                    @extend %secondary-button__icon-only;
-
-                    &-icon {
-                        display: block;
-                        width: 18px;
-                        height: 18px;
-                    }
-                }
-
-                &__right {
-                    @extend %secondary-button__icon-only;
-
-                    &-icon {
-                        display: block;
-                        width: 18px;
-                        height: 18px;
-                    }
-                }
-            }
-
-            @media (max-width: v.$media_lg) {
-                padding: 0 24px 0 0;
-            }
-        }
-
-        @media (max-width: v.$media_md) {
-            padding: 0 0 0 24px;
-        }
-
+    
         @media (max-width: v.$media_sm) {
-            @include m.d-flex(start, start, nowrap, column, 0, 24px);
+            padding: 40px 0;
         }
-    }
-
-    @media (max-width: v.$media_lg) {
-        padding: 48px 0;
-    }
-
-    @media (max-width: v.$media_sm) {
-        padding: 40px 0;
     }
 }

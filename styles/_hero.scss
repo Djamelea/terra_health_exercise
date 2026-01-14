@@ -6,88 +6,93 @@
 .hero__section {
     padding: 0;
 
-    .hero {
-        @include m.d-flex(start, center, nowrap, row, 0, 0);
+    .max-width {
+        max-width: 2560px;
+        margin: 0 auto;
 
-        &-content {
-            width: 50%;
-            padding: 0 56px 0 0;
-            @include m.d-flex(center, start, nowrap, column, 0, 32px);
-
-        
-            &__text {
-                @include m.d-flex(start, start, nowrap, column, 0, 16px);
-
-                .rating {
-                    @include m.d-flex(start, center, nowrap, row, 4px, 0);
-
-                    &__stars {
-                        @include m.d-flex(start, start, nowrap, row, 0, 0);
-
-                        &-star {
-                            width: 24px;
-                            height: 24px;
-                            fill: v.$color_green_800;
+        .hero {
+            @include m.d-flex(start, center, nowrap, row, 0, 0);
+    
+            &-content {
+                width: 50%;
+                padding: 0 56px 0 0;
+                @include m.d-flex(center, start, nowrap, column, 0, 32px);
+    
+            
+                &__text {
+                    @include m.d-flex(start, start, nowrap, column, 0, 16px);
+    
+                    .rating {
+                        @include m.d-flex(start, center, nowrap, row, 4px, 0);
+    
+                        &__stars {
+                            @include m.d-flex(start, start, nowrap, row, 0, 0);
+    
+                            &-star {
+                                width: 24px;
+                                height: 24px;
+                                fill: v.$color_green_800;
+                            }
+                        }
+    
+                        &__text {
+                            @extend %body-m-500-black;
                         }
                     }
-
-                    &__text {
-                        @extend %body-m-500-black;
+    
+                    &-eyebrow {
+                        @extend %eyebrow-m-light-black;
                     }
-                }
-
-                &-eyebrow {
-                    @extend %eyebrow-m-light-black;
-                }
-
-                &-main {
-                    &-title {
-                        margin: 0 0 8px 0;
-                        @extend %h1-black;
-                    }
-
-                    &-text {
-                        @extend %body-m-500-black;
+    
+                    &-main {
+                        &-title {
+                            margin: 0 0 8px 0;
+                            @extend %h1-black;
+                        }
+    
+                        &-text {
+                            @extend %body-m-500-black;
+                        }
                     }
                 }
             }
-        }
-
-        &-img {
-            width: 50%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .button {
-            @include m.d-flex(start, start, nowrap, row, 16px, 0);
-
-            &__primary {
-                @extend %primary-button;
-            }
-
-            &__secondary {
-                @extend %secondary-button;
-            }
-        }
-
-        @media (max-width: v.$media_md) {
-            @include m.d-flex(start, center, nowrap, column, 0, 0);
-
-            &-content {
-                width: 100%;
-                padding: 40px 24px 24px 24px;
-                @include m.d-flex(center, start, nowrap, column, 0, 24px);
-            }
-
+    
             &-img {
-                width: 100%;
+                width: 50%;
+                height: 100%;
+                object-fit: cover;
             }
-        }
-
-        @media (max-width: v.$meida_xxs) {
+    
             .button {
-                @include m.d-flex(start, start, wrap, row, 16px, 16px);
+                @include m.d-flex(start, start, nowrap, row, 16px, 0);
+    
+                &__primary {
+                    @extend %primary-button;
+                }
+    
+                &__secondary {
+                    @extend %secondary-button;
+                }
+            }
+    
+            @media (max-width: v.$media_md) {
+                @include m.d-flex(start, center, nowrap, column, 0, 0);
+    
+                &-content {
+                    width: 100%;
+                    padding: 40px 24px 24px 24px;
+                    @include m.d-flex(center, start, nowrap, column, 0, 24px);
+                }
+    
+                &-img {
+                    width: 100%;
+                }
+            }
+    
+            @media (max-width: v.$meida_xxs) {
+                .button {
+                    @include m.d-flex(start, start, wrap, row, 16px, 16px);
+                }
             }
         }
     }
