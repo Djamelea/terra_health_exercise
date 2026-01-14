@@ -1,0 +1,56 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'typography';
+@use 'buttons';
+
+.button-cta__section {
+    padding: 56px 0;
+
+    .max-width {
+        max-width: 2560px;
+        margin: 0 auto;
+
+        .button-cta {
+            padding: 56px;
+            background-color: v.$color_gray_200;
+            @include m.d-flex(start, center, nowrap, column, 0, 8px);
+
+            &__title {
+                max-width: 892px;
+                text-align: center;
+                @extend %h2-black;
+            }
+
+            &__text {
+                max-width: 892px;
+                text-align: center;
+                @extend %body-m-500-black;
+            }
+
+            &__btn {
+                margin: 16px 0 0 0;
+                @extend %primary-button;
+            }
+
+            @media (max-width: v.$media_lg) {
+                padding: 48px;
+            }
+
+            @media (max-width: v.$media_xs) {
+                padding: 40px 24px;
+
+                &__btn {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: v.$media_lg) {
+        padding: 48px 0;
+    }
+
+    @media (max-width: v.$media_sm) {
+        padding: 40px 0;
+    }
+}
