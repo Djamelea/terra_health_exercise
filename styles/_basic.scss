@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
 .container {
     width: 100%;
     padding: 0 56px;
+    overflow: hidden;
 
     @media (max-width: v.$media_lg) {
         padding: 0 24px;
@@ -26,26 +27,20 @@ h1, h2, h3, h4, h5, h6, p {
 .container__left-space {
     width: 100%;
     padding: 0 0 0 56px;
+    overflow: hidden;
 
     @media (max-width: v.$media_lg) {
         padding: 0 0 0 24px;
-    }
-
-    @media (max-width: v.$media_md) {
-        padding: 0;
     }
 }
 
 .container__right-space {
     width: 100%;
-    padding: 0 56px 0 0 ;
+    padding: 0 56px 0 0;
+    overflow: hidden;
 
     @media (max-width: v.$media_lg) {
         padding: 0 24px 0 0;
-    }
-
-    @media (max-width: v.$media_md) {
-        padding: 0;
     }
 }
 

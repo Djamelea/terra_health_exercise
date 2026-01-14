@@ -4,6 +4,7 @@
 
 %primary-button {
     @extend %body-m-500-white;
+    white-space: nowrap;
     padding: 16px 32px;
     background-color: v.$color_green_800;
     text-decoration: none;
@@ -32,8 +33,38 @@
     }
 }
 
+%primary-button_icon-only {
+    fill: v.$color_green_100;
+    padding: 16px;
+    background-color: v.$color_green_800;
+    border: none;
+    border-radius: 99px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: v.$color_green_600;
+    }
+
+    &:focus {
+        outline: none;
+        background-color: v.$color_green_600;
+    }
+
+    &:focus-visible {
+        background-color: v.$color_green_600;
+        outline: 2px solid v.$color_green_400;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        background-color: v.$color_green_500;
+        fill: v.$color_green_300;
+    }
+}
+
 %secondary-button {
     @extend %body-m-500-black;
+    white-space: nowrap;
     padding: 16px 32px;
     background-color: v.$color_green_200;
     text-decoration: none;
@@ -62,5 +93,37 @@
         cursor: not-allowed;
         background-color: v.$color_green_200;
         color: v.$color_green_500;
+    }
+}
+
+%secondary-button__icon-only {
+    fill: v.$color_green_800;
+    padding: 16px;
+    background-color: v.$color_green_200;
+    border: none;
+    border-radius: 99px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: v.$color_green_600;
+        fill: v.$color_green_100;
+    }
+
+    &:focus {
+        outline: none;
+        background-color: v.$color_green_700;
+        fill: v.$color_green_100;
+    }
+
+    &:focus-visible {
+        outline: 2px solid v.$color_gray_300;
+        background-color: v.$color_green_700;
+        fill: v.$color_green_100;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        background-color: v.$color_green_200;
+        fill: v.$color_green_500;
     }
 }
