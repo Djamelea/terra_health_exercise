@@ -33,6 +33,11 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0 0 0 24px;
   }
 }
+@media (max-width: 992px) {
+  .container__left-space {
+    padding: 0;
+  }
+}
 
 .container__right-space {
   width: 100%;
@@ -42,6 +47,11 @@ h1, h2, h3, h4, h5, h6, p {
 @media (max-width: 1024px) {
   .container__right-space {
     padding: 0 24px 0 0;
+  }
+}
+@media (max-width: 992px) {
+  .container__right-space {
+    padding: 0;
   }
 }
 
@@ -947,6 +957,11 @@ h1, h2, h3, h4, h5, h6, p {
 @media (max-width: 1024px) {
   .blog__section .blog__footer {
     padding: 0 24px 0 0;
+  }
+}
+@media (max-width: 992px) {
+  .blog__section .blog {
+    padding: 0 0 0 24px;
   }
 }
 @media (max-width: 768px) {
