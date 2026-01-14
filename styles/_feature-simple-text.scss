@@ -9,7 +9,7 @@
     .max-width {
         max-width: 2560px;
         margin: 0 auto;
-        
+
         .feature-simple-text {
             width: 100%;
             @include m.d-flex(start, center, nowrap, row, 24px, 0);
@@ -77,13 +77,13 @@
                 }
             }
         }
-    
-        @media (max-width: v.$media_lg) {
-            padding: 48px 0;
-        }
-    
-        @media (max-width: v.$media_sm) {
-            padding: 40px 0;
-        }
+    }
+
+    @media (max-width: v.$media_lg) {
+        padding: 48px 0;
+    }
+
+    @media (max-width: v.$media_sm) {
+        padding: 40px 0;
     }
 }

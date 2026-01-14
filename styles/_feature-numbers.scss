@@ -105,13 +105,13 @@
                 }
             }
         }
-    
-        @media (max-width: v.$media_lg) {
-            padding: 48px 0;
-        }
-    
-        @media (max-width: v.$media_sm) {
-            padding: 40px 0;
-        }
+    }
+
+    @media (max-width: v.$media_lg) {
+        padding: 48px 0;
+    }
+
+    @media (max-width: v.$media_sm) {
+        padding: 40px 0;
     }
 }
