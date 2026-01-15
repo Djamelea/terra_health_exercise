@@ -1,0 +1,173 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'typography';
+@use 'buttons';
+
+.instagram__section {
+    padding: 56px 0;
+
+    .max-width {
+        max-width: 2560px;
+        margin: 0 auto;
+
+        .instagram {
+            @include m.d-flex(start, start, nowrap, column, 0, 32px);
+
+            .header {
+                width: 100%;
+                padding: 0 56px 0 0;
+                @include m.d-flex(start, start, nowrap, row, 24px, 0);
+
+                &__text {
+                    width: 100%;
+
+                    &-title {
+                        margin: 0 0 8px 0;
+                        @extend %h2-black;
+                    }
+
+                    &-desc {
+                        @extend %body-m-500-black;
+                    }
+                }
+
+                &__btn {
+                    @extend %primary-button;
+                }
+
+                @media (max-width: v.$media_lg) {
+                    padding: 0 24px 0 0;
+                }
+
+                @media (max-width: v.$media_sm) {
+                    @include m.d-flex(start, start, nowrap, column, 0, 24px);
+                }
+            }
+
+            &__posts {
+                @include m.d-flex(start, start, nowrap, row, 24px, 0);
+
+                .post {
+                    position: relative;
+                    width: 434px;
+                    height: 434px;
+
+                    &::after {
+                        content: "";
+                        @include m.position(absolute, 1, 0);
+                        background: rgba(0,0,0,0);
+                    }
+
+                    &__img {
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    &__icon {
+                        display: none;
+                        width: 24px;
+                        height: 24px;
+                        fill: v.$color_green_100;
+                        @include m.position(absolute, 2, -1, top, left, 50%, 50%);
+                        transform: translate(-50%, -50%);
+                    }
+
+                    &:hover {
+                        cursor: pointer;
+
+                        &::after {
+                            content: "";
+                            @include m.position(absolute, 1, 0);
+                            background: rgba(0,0,0,.2);
+                        }
+
+                        .post__icon {
+                            display: block;
+                        }
+                    }
+                }
+            }
+
+            &__footer {
+                width: 100%;
+                padding: 0 56px 0 0;
+                @include m.d-flex(space-between, center, nowrap, row, 24px, 0);
+
+                &-slider {
+                    width: 224px;
+                    height: 2px;
+                    background-color: v.$color_green_400;
+
+                    &-top {
+                        width: 80px;
+                        height: 2px;
+                        background-color: v.$color_green_800;
+                    }
+
+                    @media (max-width: v.$media_sm) {
+                        width: 163px;
+                    }
+                }
+
+                .button {
+                    @include m.d-flex(end, center, nowrap, row, 8px, 0);
+
+                    &__left {
+                        @extend %secondary-button__icon-only;
+
+                        &-icon {
+                            display: block;
+                            height: 18px;
+                            width: 18px;
+                        }
+                    }
+
+                    &__right {
+                        @extend %secondary-button__icon-only;
+
+                        &-icon {
+                            display: block;
+                            height: 18px;
+                            width: 18px;
+                        }
+                    }
+                }
+
+                @media (max-width: v.$media_lg) {
+                    padding: 0 24px 0 0;
+                }
+            }
+
+            @media (max-width: v.$media_lg) {
+                &__posts {
+                    @include m.d-flex(start, start, nowrap, row, 16px, 0);
+
+                    .post {
+                        width: 315px;
+                        height: 315px;
+                    }
+                }
+            }
+
+            @media (max-width: v.$media_md) {
+                padding: 0 0 0 24px;
+            }
+
+            @media (max-width: v.$media_sm) {
+                .post {
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: v.$media_lg) {
+        padding: 48px 0;
+    }
+
+    @media (max-width: v.$media_sm) {
+        padding: 40px 0;
+    }
+}
