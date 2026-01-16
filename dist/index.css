@@ -125,7 +125,7 @@ li {
   line-height: 130%;
 }
 
-.banner-triggers__section .max-width .banner-triggers__wrapper-text, .instagram__section .max-width .instagram .header__btn, .faq__section .max-width .faq__left-btn, .button-cta__section .max-width .button-cta__btn, .blog__section .max-width .blog .header__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary, .form-cta__section .max-width .form-cta__form-btn, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn, .hero__section .max-width .hero .button__primary, .menu__section .menu__navigation .button__primary {
+.banner-triggers__section .max-width .banner-triggers__wrapper-text, .instagram__section .max-width .instagram .header__btn, .faq__section .max-width .faq__left-btn, .button-cta__section .max-width .button-cta__btn, .blog__section .max-width .blog .header__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary, .form-cta__section .max-width .form-cta__form-btn, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn, .hero__section .max-width .hero .button__primary, .menu__section .menu__navigation .button__primary, .announcement__section .announcement__text {
   font-family: "Inter Tight", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -170,6 +170,31 @@ li {
   color: #F6F7EF;
   text-transform: uppercase;
   letter-spacing: -4%;
+}
+
+.announcement__section {
+  position: fixed;
+  width: 100%;
+  background-color: #1C3A13;
+}
+.announcement__section .announcement {
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  column-gap: 8px;
+  row-gap: 0;
+}
+.announcement__section .announcement__text {
+  line-height: 100%;
+}
+.announcement__section .announcement__icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+  fill: #F6F7EF;
 }
 
 .instagram__section .max-width .instagram .header__btn, .faq__section .max-width .faq__left-btn, .button-cta__section .max-width .button-cta__btn, .blog__section .max-width .blog .header__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary, .form-cta__section .max-width .form-cta__form-btn, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn, .hero__section .max-width .hero .button__primary, .menu__section .menu__navigation .button__primary {
@@ -272,6 +297,7 @@ li {
 }
 
 .header__section {
+  margin: 34px 0 0 0;
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -540,7 +566,7 @@ li {
   margin: 0 auto;
 }
 .hero__section .max-width .hero {
-  margin: 72px 0 0 0;
+  margin: 106px 0 0 0;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -611,7 +637,7 @@ li {
 }
 @media (max-width: 992px) {
   .hero__section .max-width .hero {
-    margin: 56px 0 0 0;
+    margin: 90px 0 0 0;
     display: flex;
     justify-content: start;
     align-items: center;
