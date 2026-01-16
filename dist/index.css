@@ -107,7 +107,7 @@ li {
   line-height: 100%;
 }
 
-.footer__section .max-width .footer .bottom__text, .instagram__section .max-width .instagram .header__text-desc, .faq__section .max-width .faq__left-text, .button-cta__section .max-width .button-cta__text, .blog__section .max-width .blog .header__text-desc, .feature-simple-text__section .max-width .feature-simple-text .content__text-desc, .form-cta__section .max-width .form-cta__form-input, .feature-numbers__section .max-width .feature-numbers__content-wrapper .numbers__wrapper-text, .hero__section .max-width .hero-content__text .rating__text, .hero__section .max-width .hero-content__text-main-text, .blog__section .max-width .blog .blog__articles .article-wrapper .content__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary, .hero__section .max-width .hero .button__secondary {
+.footer__section .max-width .footer .bottom__text, .instagram__section .max-width .instagram .header__text-desc, .faq__section .max-width .faq__left-text, .button-cta__section .max-width .button-cta__text, .blog__section .max-width .blog .header__text-desc, .feature-simple-text__section .max-width .feature-simple-text .content__text-desc, .form-cta__section .max-width .form-cta__form-input, .feature-numbers__section .max-width .feature-numbers__content-wrapper .numbers__wrapper-text, .hero__section .max-width .hero-content__text .rating__text, .hero__section .max-width .hero-content__text-main-text, .header__section .max-width .nav__links .list__item-link, .menu__section .menu__navigation .list__item-link, .blog__section .max-width .blog .blog__articles .article-wrapper .content__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary, .hero__section .max-width .hero .button__secondary, .menu__section .menu__navigation .button__secondary {
   font-family: "Inter Tight", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -116,7 +116,7 @@ li {
   line-height: 130%;
 }
 
-.faq__section .max-width .faq__right .question__answer, .blog__section .max-width .blog .blog__articles .article-wrapper .content__info-time-text, .blog__section .max-width .blog .blog__articles .article-wrapper .content__text, .form-cta__section .max-width .form-cta__form-input::placeholder, .feature-numbers__section .max-width .feature-numbers__content-wrapper .header__text {
+.faq__section .max-width .faq__right .question__answer, .blog__section .max-width .blog .blog__articles .article-wrapper .content__info-time-text, .blog__section .max-width .blog .blog__articles .article-wrapper .content__text, .form-cta__section .max-width .form-cta__form-input::placeholder, .feature-numbers__section .max-width .feature-numbers__content-wrapper .header__text, .menu__section .menu__navigation .button__hint {
   font-family: "Inter Tight", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -125,7 +125,7 @@ li {
   line-height: 130%;
 }
 
-.banner-triggers__section .max-width .banner-triggers__wrapper-text, .instagram__section .max-width .instagram .header__btn, .faq__section .max-width .faq__left-btn, .button-cta__section .max-width .button-cta__btn, .blog__section .max-width .blog .header__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary, .form-cta__section .max-width .form-cta__form-btn, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn, .hero__section .max-width .hero .button__primary {
+.banner-triggers__section .max-width .banner-triggers__wrapper-text, .instagram__section .max-width .instagram .header__btn, .faq__section .max-width .faq__left-btn, .button-cta__section .max-width .button-cta__btn, .blog__section .max-width .blog .header__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary, .form-cta__section .max-width .form-cta__form-btn, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn, .hero__section .max-width .hero .button__primary, .menu__section .menu__navigation .button__primary {
   font-family: "Inter Tight", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -172,7 +172,7 @@ li {
   letter-spacing: -4%;
 }
 
-.instagram__section .max-width .instagram .header__btn, .faq__section .max-width .faq__left-btn, .button-cta__section .max-width .button-cta__btn, .blog__section .max-width .blog .header__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary, .form-cta__section .max-width .form-cta__form-btn, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn, .hero__section .max-width .hero .button__primary {
+.instagram__section .max-width .instagram .header__btn, .faq__section .max-width .faq__left-btn, .button-cta__section .max-width .button-cta__btn, .blog__section .max-width .blog .header__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary, .form-cta__section .max-width .form-cta__form-btn, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn, .hero__section .max-width .hero .button__primary, .menu__section .menu__navigation .button__primary {
   white-space: nowrap;
   padding: 16px 32px;
   background-color: #162E0F;
@@ -180,25 +180,25 @@ li {
   border: none;
   border-radius: 99px;
 }
-.instagram__section .max-width .instagram .header__btn:hover, .faq__section .max-width .faq__left-btn:hover, .button-cta__section .max-width .button-cta__btn:hover, .blog__section .max-width .blog .header__btn:hover, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary:hover, .form-cta__section .max-width .form-cta__form-btn:hover, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn:hover, .hero__section .max-width .hero .button__primary:hover {
+.instagram__section .max-width .instagram .header__btn:hover, .faq__section .max-width .faq__left-btn:hover, .button-cta__section .max-width .button-cta__btn:hover, .blog__section .max-width .blog .header__btn:hover, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary:hover, .form-cta__section .max-width .form-cta__form-btn:hover, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn:hover, .hero__section .max-width .hero .button__primary:hover, .menu__section .menu__navigation .button__primary:hover {
   cursor: pointer;
   background-color: #45663C;
 }
-.instagram__section .max-width .instagram .header__btn:focus, .faq__section .max-width .faq__left-btn:focus, .button-cta__section .max-width .button-cta__btn:focus, .blog__section .max-width .blog .header__btn:focus, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary:focus, .form-cta__section .max-width .form-cta__form-btn:focus, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn:focus, .hero__section .max-width .hero .button__primary:focus {
+.instagram__section .max-width .instagram .header__btn:focus, .faq__section .max-width .faq__left-btn:focus, .button-cta__section .max-width .button-cta__btn:focus, .blog__section .max-width .blog .header__btn:focus, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary:focus, .form-cta__section .max-width .form-cta__form-btn:focus, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn:focus, .hero__section .max-width .hero .button__primary:focus, .menu__section .menu__navigation .button__primary:focus {
   outline: none;
   background-color: #45663C;
 }
-.instagram__section .max-width .instagram .header__btn:focus-visible, .faq__section .max-width .faq__left-btn:focus-visible, .button-cta__section .max-width .button-cta__btn:focus-visible, .blog__section .max-width .blog .header__btn:focus-visible, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary:focus-visible, .form-cta__section .max-width .form-cta__form-btn:focus-visible, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn:focus-visible, .hero__section .max-width .hero .button__primary:focus-visible {
+.instagram__section .max-width .instagram .header__btn:focus-visible, .faq__section .max-width .faq__left-btn:focus-visible, .button-cta__section .max-width .button-cta__btn:focus-visible, .blog__section .max-width .blog .header__btn:focus-visible, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary:focus-visible, .form-cta__section .max-width .form-cta__form-btn:focus-visible, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn:focus-visible, .hero__section .max-width .hero .button__primary:focus-visible, .menu__section .menu__navigation .button__primary:focus-visible {
   background-color: #45663C;
   outline: 2px solid #BBC3B8;
 }
-.instagram__section .max-width .instagram .header__btn:disabled, .faq__section .max-width .faq__left-btn:disabled, .button-cta__section .max-width .button-cta__btn:disabled, .blog__section .max-width .blog .header__btn:disabled, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary:disabled, .form-cta__section .max-width .form-cta__form-btn:disabled, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn:disabled, .hero__section .max-width .hero .button__primary:disabled {
+.instagram__section .max-width .instagram .header__btn:disabled, .faq__section .max-width .faq__left-btn:disabled, .button-cta__section .max-width .button-cta__btn:disabled, .blog__section .max-width .blog .header__btn:disabled, .feature-simple-text__section .max-width .feature-simple-text .content .button__primary:disabled, .form-cta__section .max-width .form-cta__form-btn:disabled, .feature-numbers__section .max-width .feature-numbers__content-wrapper-btn:disabled, .hero__section .max-width .hero .button__primary:disabled, .menu__section .menu__navigation .button__primary:disabled {
   cursor: not-allowed;
   background-color: #A5B0A2;
   color: #D2D8D0;
 }
 
-.blog__section .max-width .blog .blog__articles .article-wrapper .content__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary, .hero__section .max-width .hero .button__secondary {
+.blog__section .max-width .blog .blog__articles .article-wrapper .content__btn, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary, .hero__section .max-width .hero .button__secondary, .menu__section .menu__navigation .button__secondary {
   white-space: nowrap;
   padding: 16px 32px;
   background-color: #E9F0CA;
@@ -206,22 +206,22 @@ li {
   border: none;
   border-radius: 99px;
 }
-.blog__section .max-width .blog .blog__articles .article-wrapper .content__btn:hover, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary:hover, .hero__section .max-width .hero .button__secondary:hover {
+.blog__section .max-width .blog .blog__articles .article-wrapper .content__btn:hover, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary:hover, .hero__section .max-width .hero .button__secondary:hover, .menu__section .menu__navigation .button__secondary:hover {
   cursor: pointer;
   background-color: #45663C;
   color: #F6F7EF;
 }
-.blog__section .max-width .blog .blog__articles .article-wrapper .content__btn:focus, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary:focus, .hero__section .max-width .hero .button__secondary:focus {
+.blog__section .max-width .blog .blog__articles .article-wrapper .content__btn:focus, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary:focus, .hero__section .max-width .hero .button__secondary:focus, .menu__section .menu__navigation .button__secondary:focus {
   outline: none;
   background-color: #1C3A13;
   color: #F6F7EF;
 }
-.blog__section .max-width .blog .blog__articles .article-wrapper .content__btn:focus-visible, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary:focus-visible, .hero__section .max-width .hero .button__secondary:focus-visible {
-  outline: 2px solid #AFAFAF;
+.blog__section .max-width .blog .blog__articles .article-wrapper .content__btn:focus-visible, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary:focus-visible, .hero__section .max-width .hero .button__secondary:focus-visible, .menu__section .menu__navigation .button__secondary:focus-visible {
+  outline: 2px solid #CFCFCF;
   background-color: #1C3A13;
   color: #F6F7EF;
 }
-.blog__section .max-width .blog .blog__articles .article-wrapper .content__btn:disabled, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary:disabled, .hero__section .max-width .hero .button__secondary:disabled {
+.blog__section .max-width .blog .blog__articles .article-wrapper .content__btn:disabled, .feature-simple-text__section .max-width .feature-simple-text .content .button__secondary:disabled, .hero__section .max-width .hero .button__secondary:disabled, .menu__section .menu__navigation .button__secondary:disabled {
   cursor: not-allowed;
   background-color: #E9F0CA;
   color: #A5B0A2;
@@ -245,7 +245,7 @@ li {
   fill: #F6F7EF;
 }
 .instagram__section .max-width .instagram__footer .button__left:focus-visible, .instagram__section .max-width .instagram__footer .button__right:focus-visible, .blog__section .max-width .blog__footer .button__left:focus-visible, .blog__section .max-width .blog__footer .button__right:focus-visible {
-  outline: 2px solid #AFAFAF;
+  outline: 2px solid #CFCFCF;
   background-color: #1C3A13;
   fill: #F6F7EF;
 }
@@ -253,6 +253,283 @@ li {
   cursor: not-allowed;
   background-color: #E9F0CA;
   fill: #A5B0A2;
+}
+
+.menu__toggler {
+  display: none;
+}
+
+.menu__toggler:checked ~ .menu__section .menu__navigation {
+  translate: 0;
+}
+
+.menu__toggler:checked ~ .header__section .nav__logo-btn-burger {
+  display: none;
+}
+
+.menu__toggler:checked ~ .header__section .nav__logo-btn-close {
+  display: block;
+}
+
+.header__section {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding: 0;
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #CFCFCF;
+}
+.header__section .max-width {
+  max-width: 2560px;
+  margin: 0 auto;
+}
+.header__section .max-width .nav {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  column-gap: 24px;
+  row-gap: 0;
+}
+.header__section .max-width .nav__logo {
+  width: 224px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  column-gap: 8px;
+  row-gap: 0;
+}
+.header__section .max-width .nav__logo-btn-burger {
+  display: none;
+  padding: 16px 8px;
+}
+.header__section .max-width .nav__logo-btn-burger-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: #162E0F;
+}
+@media (max-width: 992px) {
+  .header__section .max-width .nav__logo-btn-burger {
+    display: block;
+  }
+}
+.header__section .max-width .nav__logo-btn-close {
+  display: none;
+  padding: 16px 8px;
+}
+.header__section .max-width .nav__logo-btn-close-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: #162E0F;
+}
+.header__section .max-width .nav__logo-link {
+  display: inline-flex;
+  width: fit-content;
+}
+.header__section .max-width .nav__logo-link-icon {
+  display: block;
+  width: 133px;
+  height: 24px;
+  fill: #162E0F;
+}
+.header__section .max-width .nav__logo-link:hover {
+  cursor: pointer;
+}
+.header__section .max-width .nav__logo-link:hover .nav__logo-link-icon {
+  fill: #45663C;
+}
+.header__section .max-width .nav__logo-link:focus-visible {
+  outline: 2px solid #162E0F;
+  border-radius: 2px;
+}
+.header__section .max-width .nav__links {
+  height: 100%;
+}
+.header__section .max-width .nav__links .list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  column-gap: 16px;
+  row-gap: 0;
+}
+.header__section .max-width .nav__links .list__item {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header__section .max-width .nav__links .list__item-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  white-space: nowrap;
+}
+.header__section .max-width .nav__links .list__item-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #162E0F;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+.header__section .max-width .nav__links .list__item-link:hover::after {
+  cursor: pointer;
+  opacity: 1;
+}
+.header__section .max-width .nav__links .list__item-link:focus-visible {
+  outline: none;
+}
+.header__section .max-width .nav__links .list__item-link:focus-visible::after {
+  opacity: 1;
+}
+.header__section .max-width .nav .action {
+  width: 224px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  column-gap: 8px;
+  row-gap: 0;
+}
+.header__section .max-width .nav .action__btn {
+  position: relative;
+  cursor: pointer;
+  padding: 24px 8px;
+  border: none;
+  background-color: transparent;
+}
+.header__section .max-width .nav .action__btn-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: #162E0F;
+}
+.header__section .max-width .nav .action__btn::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #162E0F;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+.header__section .max-width .nav .action__btn:hover::after {
+  opacity: 1;
+}
+.header__section .max-width .nav .action__btn:focus-visible {
+  outline: none;
+}
+.header__section .max-width .nav .action__btn:focus-visible::after {
+  opacity: 1;
+}
+@media (max-width: 428px) {
+  .header__section .max-width .nav .action a {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .header__section .max-width .container {
+    padding: 0 16px;
+  }
+  .header__section .max-width .container .nav {
+    height: 56px;
+  }
+  .header__section .max-width .container .nav__links {
+    display: none;
+  }
+  .header__section .max-width .container .nav .action__btn {
+    padding: 16px 8px;
+  }
+}
+
+.menu__section {
+  display: none;
+}
+.menu__section .menu__navigation {
+  position: fixed;
+  z-index: 998;
+  left: 0;
+  top: 56px;
+  width: 100%;
+  height: calc(100vh - 56px);
+  padding: 24px;
+  background-color: #F9F9F9;
+  translate: -100% 0;
+  transition: translate 0.24s;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  column-gap: 0;
+  row-gap: 24px;
+}
+.menu__section .menu__navigation .list {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  column-gap: 0;
+  row-gap: 4px;
+}
+.menu__section .menu__navigation .list__item {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  align-items: center;
+}
+.menu__section .menu__navigation .list__item-link {
+  width: 100%;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+}
+.menu__section .menu__navigation .button {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  column-gap: 0;
+  row-gap: 16px;
+  display: none;
+}
+.menu__section .menu__navigation .button__primary {
+  width: 100%;
+  margin: 0 0 8px 0;
+}
+.menu__section .menu__navigation .button__secondary {
+  width: 100%;
+}
+@media (max-width: 428px) {
+  .menu__section .menu__navigation .button {
+    display: flex;
+  }
+}
+@media (max-width: 992px) {
+  .menu__section {
+    display: block;
+  }
 }
 
 .hero__section {
@@ -263,6 +540,7 @@ li {
   margin: 0 auto;
 }
 .hero__section .max-width .hero {
+  margin: 72px 0 0 0;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -333,6 +611,7 @@ li {
 }
 @media (max-width: 992px) {
   .hero__section .max-width .hero {
+    margin: 56px 0 0 0;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -1124,7 +1403,7 @@ li {
 .faq__section .max-width .faq__right .question {
   width: 100%;
   padding: 0 0 24px 0;
-  border-bottom: 1px solid #AFAFAF;
+  border-bottom: 1px solid #CFCFCF;
   display: flex;
   justify-content: start;
   align-items: start;
@@ -1507,7 +1786,7 @@ li {
 .footer__section .max-width .footer .bottom {
   width: 100%;
   padding: 32px 0 0 0;
-  border-top: 1px solid #AFAFAF;
+  border-top: 1px solid #CFCFCF;
   display: flex;
   justify-content: space-between;
   align-items: center;
