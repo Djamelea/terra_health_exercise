@@ -1,0 +1,26 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'typography';
+
+.announcement__section {
+    position: fixed;
+    width: 100%;
+    background-color: v.$color_green_700;
+
+    .announcement {
+        padding: 8px 0;
+        @include m.d-flex(center, center, nowrap, row, 8px, 0);
+
+        &__text {
+            @extend %body-m-500-white;
+            line-height: 100%;
+        }
+
+        &__icon {
+            display: block;
+            width: 18px;
+            height: 18px;
+            fill: v.$color_green_100;
+        }
+    }
+}
