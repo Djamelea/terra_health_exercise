@@ -493,9 +493,9 @@ li {
   position: fixed;
   z-index: 998;
   left: 0;
-  top: 56px;
+  top: 90px;
   width: 100%;
-  height: calc(100vh - 56px);
+  height: calc(100vh - 90px);
   padding: 24px;
   background-color: #F9F9F9;
   translate: -100% 0;
