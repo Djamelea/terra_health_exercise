@@ -22,7 +22,7 @@
 .header__section {
     margin: 34px 0 0 0;
     position: fixed;
-    z-index: 999;
+    z-index: 998;
     width: 100%;
     padding: 0;
     background-color: v.$color_gray_100;
@@ -221,7 +221,7 @@
     .menu {
         &__navigation {
             position: fixed;
-            z-index: 998;
+            z-index: 997;
             left: 0;
             top: 90px;
             width: 100%;
